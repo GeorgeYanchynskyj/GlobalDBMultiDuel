@@ -1,0 +1,342 @@
+﻿html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+#arena {
+  background-image: url('./images/floor.jpg');
+  background-size: 100% 100%;
+  margin: 0px;
+  margin-left: 20%;
+  
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#score {
+  position: absolute;
+  z-index: 1000;
+  left: 50%;
+  top: 3%;
+  transform: translate(-50%, 0%);
+}
+
+.but{
+    position: absolute;
+    
+     width: 10%;
+     height: 10%;
+}
+
+#create{
+    left: 5%;
+    top: 5%;
+    
+}
+
+#join{
+    left: 5%;
+    top: 20%;
+
+}
+
+#offline{
+    left: 5%;
+    top: 35%;
+
+}
+
+#save{
+    left: 5%;
+    top: -20%;
+    
+}
+
+#load{
+    left: 5%;
+    top: 50%;
+    
+}
+
+#info{
+    position: absolute;
+
+    width: 10%;
+    height: 80%;
+
+    top: 5%;
+    left: 85%;
+
+}
+
+.diag{
+    position: absolute;
+
+    background-image: url('./images/diag.png');
+    background-size: 100% 100%;
+
+    width: 5%;
+    height: 8%;
+    /*padding-top: 3%;*/
+}
+#topleft{
+
+    transform: rotate(0deg);
+
+    top: 70%;
+    left: 2%;
+}
+#topright{
+
+    transform: rotate(90deg);
+
+    top: 70%;
+    left: 10%;
+}
+#botleft{
+
+    transform: rotate(270deg);
+
+    top: 85%;
+    left: 2%;
+}
+#botright{
+
+    transform: rotate(180deg);
+
+    top: 85%;
+    left: 10%;
+}
+
+.vertical{
+    position: absolute;
+
+    background-image: url('./images/down.png');
+    background-size: 100% 100%;
+
+    width: 3%;
+    height: 8%;
+
+}
+#top{
+
+    transform: rotate(180deg);
+
+    top: 70%;
+    left: 7%;
+}
+#bot{
+
+    transform: rotate(0deg);
+
+    top: 85%;
+    left: 7%;
+}
+.horizontal{
+    position: absolute;
+
+    background-image: url('./images/up.png');
+    background-size: 100% 100%;
+
+    width: 4%;
+    height: 5%;
+}
+#left{
+
+    transform: rotate(0deg);
+
+    top: 78%;
+    left: 2%;
+}
+#right{
+
+    transform: rotate(180deg);
+
+    top: 78%;
+    left: 10%;
+}
+
+#fire{
+     position: absolute;
+
+    background-image: url('./images/fbt.png');
+    background-size: 100% 100%;
+
+    width: 8%;
+    height: 13%;
+
+    top: 73%;
+    left: 85%;
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('PressStart2P.woff');
+}
+
+h1 {
+  font-family: 'PressStart2P', 'Georgia', serif;
+}
+
+.sprite {
+  background-image: url("sprites.png");
+  width: 128px;
+  height: 128px;
+}
+
+.bullet{
+    position: absolute;
+
+    background-image: url('./images/fbt.png');
+    background-size: 100% 100%;
+
+    width: 3%;
+    height: 5%;
+}
+
+.boom{
+    position: absolute;
+
+    background-image: url('./images/boom.png');
+    background-size: 100% 100%;
+
+    width: 10%;
+    height: 13%;
+}
+
+.bonus{
+    position: absolute;
+
+    background-image: url('./images/healing1.png');
+    background-size: 100% 100%;
+
+    width: 5%;
+    height: 8%;
+}
+
+#player { 
+  position: absolute;
+  
+  background-image: url('./images/p2.png');
+  background-size: 100% 100%;
+  
+  width: 5%;
+  height: 8%;
+
+  left: 30%;
+  top: 10%;
+  /*overflow: hidden;*/
+}
+
+#opponent {
+  position: absolute;
+  /*background-position: 0px 0px;*/
+  background-image: url('./images/p1.png');
+  background-size: 100% 100%;
+  
+  width: 5%;
+  height: 8%;
+
+  left: 70%;
+  top: 85%;
+}
+
+.ghost{
+    position:absolute;
+
+     background-image: url('./images/ghost0.png');
+     background-size: 100% 100%;
+
+     left: 50%;
+     top: 50%;
+
+     width: 5%;
+     height: 8%;
+
+}
+
+.box{
+    position:absolute;
+
+     background-image: url('./images/Box.png');
+     background-size: 100% 100%;
+
+     left: 50%;
+     top: 50%;
+
+     width: 5%;
+     height: 8%;
+}
+
+.wall{
+     position:absolute;
+
+     background-image: url('./images/wall3.png');
+     background-size: 100% 100%;
+
+}
+#wall0{
+     left: 17%;
+     top: 0%;
+
+     width: 3%;
+     height: 100%;
+}
+#wall1{
+     left: 80%;
+     top: 0%;
+
+     width: 3%;
+     height: 100%;
+}
+#wall2{
+     left: 20%;
+     top: -5%;
+
+     width: 60%;
+     height: 10%;
+}
+#wall3{
+     left: 20%;
+     top: 95%;
+
+     width: 60%;
+     height: 5%;
+}
+
+#ball {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-position: 128px 128px;
+
+}
+#right {
+  background-position: 64px 192px;
+}
+#left {
+  background-position: 64px 0px;
+}
+#down {
+  background-position: 128px 192px;
+}
+#up {
+  background-position: 128px 0px;
+}
+
+
+.control {
+  margin: 16px;
+  width: 64px;
+  height: 64px;
+}
+
+#controls-left {
+  position: absolute;
+  left: 0; bottom: 0;
+}
+#controls-right {
+  position: absolute;
+  right: 0; bottom: 0;
+}
