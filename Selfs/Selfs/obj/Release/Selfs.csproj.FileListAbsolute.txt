@@ -1,0 +1,6 @@
+C:\Users\George\Documents\Visual Studio 2015\Projects\Selfs\Selfs\bin\Release\Selfs.exe.config
+C:\Users\George\Documents\Visual Studio 2015\Projects\Selfs\Selfs\bin\Release\Selfs.exe
+C:\Users\George\Documents\Visual Studio 2015\Projects\Selfs\Selfs\bin\Release\Selfs.pdb
+C:\Users\George\Documents\Visual Studio 2015\Projects\Selfs\Selfs\obj\Release\Selfs.csprojResolveAssemblyReference.cache
+C:\Users\George\Documents\Visual Studio 2015\Projects\Selfs\Selfs\obj\Release\Selfs.exe
+C:\Users\George\Documents\Visual Studio 2015\Projects\Selfs\Selfs\obj\Release\Selfs.pdb
